@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[66]:
-
-
 # Bubble Sort, Reverse = True則大至小(預設值)；反之小至大
 
 def bubble_sort_fun(x, reverse = 1):
@@ -16,10 +13,6 @@ def bubble_sort_fun(x, reverse = 1):
                 if x[i] < x[j]:
                     x[i], x[j] = x[j], x[i]
     return x
-
-
-# In[67]:
-
 
 import random
 lst = random.sample(range(0, 100), 20)
